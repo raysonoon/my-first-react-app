@@ -7,6 +7,8 @@ import Image from "./Image.jsx";
 import HTMLtoJSX from "./htmltojsx.jsx";
 import HTMLtoJSX2 from "./htmltojsx2.jsx";
 import ToDoList from "./ToDoList.jsx";
+import PackingList from "./PackingList.jsx";
+import DrinkList from "./Drink.jsx";
 
 
 createRoot(document.getElementById('root')).render(
@@ -16,5 +18,7 @@ createRoot(document.getElementById('root')).render(
     <HTMLtoJSX />
     <HTMLtoJSX2 />
     <ToDoList />
+    <PackingList />
+    <DrinkList />
   </StrictMode>,
 );
